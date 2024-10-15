@@ -1,0 +1,63 @@
+*{
+    text-decoration: none;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(181, 230, 248);
+    height: 170px;
+}
+.container h1{
+    margin-left: 0px;
+    margin-right: 500px;
+}
+span{
+    color: blue;
+}
+.odd{
+    margin-right: 30px;
+    gap: 20px;
+}
+.odd :hover{
+    color: red;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_section .img{
+    margin-top: 30px;
+}
+.hero_section .h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.btn{
+    border: 1px red solid;
+    width: 80px;
+    height: 25px;
+    color: burlywood;
+    font-size: large;
+}
+.btn:hover{
+    color: red;
+}
+footer{
+    background-color:rgb(181, 230, 248);
+    height: 170px;
+    text-align: center;
+}
+footer p{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30px;
+    
+}
